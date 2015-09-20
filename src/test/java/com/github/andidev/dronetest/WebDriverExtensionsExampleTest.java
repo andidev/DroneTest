@@ -11,6 +11,8 @@ import com.github.webdriverextensions.junitrunner.annotations.DriverPaths;
 import com.github.webdriverextensions.junitrunner.annotations.Firefox;
 import com.github.webdriverextensions.junitrunner.annotations.Chrome;
 import static java.util.concurrent.TimeUnit.SECONDS;
+
+import com.github.webdriverextensions.junitrunner.annotations.InternetExplorer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebElement;
@@ -19,7 +21,8 @@ import org.openqa.selenium.support.FindBy;
 @RunWith(WebDriverRunner.class)
 @Firefox
 @Chrome
-@DriverPaths(chrome = "/usr/local/bin/chromedriver")
+@InternetExplorer
+@DriverPaths
 public class WebDriverExtensionsExampleTest {
 
     // Model
