@@ -8,6 +8,7 @@ import static com.github.webdriverextensions.Bot.type;
 import static com.github.webdriverextensions.Bot.waitFor;
 import com.github.webdriverextensions.junitrunner.WebDriverRunner;
 import com.github.webdriverextensions.junitrunner.annotations.Firefox;
+import com.github.webdriverextensions.junitrunner.annotations.Chrome;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,6 +17,7 @@ import org.openqa.selenium.support.FindBy;
 
 @RunWith(WebDriverRunner.class)
 @Firefox
+@Chrome
 public class WebDriverExtensionsExampleTest {
 
     // Model
